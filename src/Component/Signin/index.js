@@ -121,7 +121,7 @@ const Signin = (props) => {
 }
 
 
-// 创建并暴露一个容器组件
+// redux container
 export default connect(
     state => ({ loginState: state }),
 
